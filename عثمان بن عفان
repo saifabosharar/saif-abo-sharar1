@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معلومات مدرسة عثمان بن عفان</title>
+    
+    <style>
+        /* التنسيقات العامة للصفحة */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9; /* لون خلفية فاتح ومهدئ */
+            color: #333; /* لون النص الأساسي */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: right; /* محاذاة النص لليمين للغة العربية */
+            direction: rtl; /* اتجاه الكتابة من اليمين لليسار */
+        }
+
+        /* تنسيق العنوان الرئيسي والـ Header */
+        header {
+            background-color: #004a99; /* لون أزرق مدرسي عميق */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* تنسيق حاوية المحتوى الرئيسية */
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* تنسيق الأقسام الفرعية */
+        section {
+            margin-bottom: 30px;
+            padding: 15px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        section:last-child {
+            border-bottom: none; /* إزالة الخط من القسم الأخير */
+        }
+
+        h2 {
+            color: #0066cc; /* لون أزرق فاتح للعناوين الفرعية */
+            border-bottom: 3px solid #ffd700; /* خط ذهبي تحت العنوان */
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        
+        /* تنسيق قائمة معلومات الاتصال */
+        ul {
+            list-style: none; /* إزالة النقاط الافتراضية */
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            border-right: 3px solid #009933; /* شريط أخضر على اليمين */
+        }
+
+        /* تنسيق الشعار (الصورة) */
+        img {
+            max-width: 150px; /* تحديد أقصى عرض للشعار */
+            height: auto;
+            display: block; /* لجعل الصورة قابلة للمحاذاة التامة */
+            margin: 15px auto 15px 0; /* محاذاة لليمين مع مسافة */
+            border: 3px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        /* تنسيق الـ Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مدرسة عثمان بن عفان</h1>
+        <p>مرحباً بكم في الموقع الرسمي لمدرستنا.</p>
+    </header>
+
+    <main>
+        
+        <section>
+            <h2>شعار المدرسة</h2>
+            <img src="saif_logo.png" alt="شعار مدرسة عثمان بن عفان">
+            <p>هذا هو الشعار الرسمي الذي يمثل رؤيتنا وقيمنا في بناء جيل المستقبل.</p>
+        </section>
+
+        <section>
+            <h2>معلومات الاتصال</h2>
+            <ul>
+                <li><strong>العنوان:</strong> عمان - حي نزال</li>
+                <li><strong>الهاتف:</strong> (06)9013200</li>
+                <li><strong>البريد الإلكتروني:</strong> <a href="mailto:info@othmanbinschool.edu">[البريد الإلكتروني الرسمي]</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>نبذة عن المدرسة</h2>
+            <p>
+                مدرسة عثمان بن عفان هي **مدرسة حكومية تابعة لوزارة التربية والتعليم**. تأسست في عام [سنة التأسيس]، ونحن ملتزمون بتقديم تعليم عالي الجودة لطلابنا.
+                نؤمن بأهمية بناء جيل واعٍ ومثقف ومسؤول.
+            </p>
+            <h3>رسالتنا:</h3>
+            <p>
+                توفير بيئة تعليمية محفزة وداعمة لاكتشاف وتطوير إمكانات كل طالب. هدفنا هو تحقيق التميز الأكاديمي والشخصي.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 مدرسة عثمان بن عفان. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
